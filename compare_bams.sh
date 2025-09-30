@@ -41,6 +41,7 @@ summarize_bam() {
   echo "" | tee -a "$STATS"
 }
 
+# Change the names and quantities of your replicates here (if applicable):
 summarize_bam "$bam1" "Rep1"
 summarize_bam "$bam2" "Rep2"
 summarize_bam "$bam3" "Rep3"
